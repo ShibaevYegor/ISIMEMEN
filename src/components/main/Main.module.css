@@ -553,3 +553,18 @@ html{
     color: #000000;
     margin: 0 auto;
 }
+
+
+/* hover */
+
+.btn:hover{
+    transition: all 0.5s linear;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.endBtn:hover{
+    transition: all 0.5s linear;
+    background-color: #000000;
+    color: #FFFFFF;
+}
