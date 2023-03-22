@@ -1,0 +1,72 @@
+:root{
+    --one:"Roboto";
+}
+
+.CardOne{
+    width: 370px;
+    height: 630px;
+    padding: 26px;
+    background-color: #AEE8FB;
+    border-radius: 10px;
+}
+
+.one{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.lorem{
+    margin-bottom: 35px;
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 122% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.btn{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #000000;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 155px;
+    height: 45px;
+    margin-left: 24.5%;
+}
+
+.CardOne:hover{
+    background-color: #F3E9E2;
+    transition: all 0.5s linear;
+    transform: scale(1.025);
+}

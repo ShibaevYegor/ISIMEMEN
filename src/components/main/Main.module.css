@@ -1,0 +1,531 @@
+:root {
+    --one: "Roboto";
+}
+
+marquee {
+    text-transform: uppercase;
+    font-size: large;
+    color: red;
+    margin-bottom: 60px;
+    font-family: var(--one);
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1320px;
+}
+
+.Main{
+    width: 1320px;
+    margin: 0 auto; 
+}
+
+.boxOne{
+    width: 100%;
+    height: 755px;
+    background-image: url(../assets/images/one.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 400px;
+    padding-left: 60px;
+}
+
+.blue{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 126px;
+    line-height: 133px;
+    width: 700px;
+    color: #AEE8FB;
+}
+
+.boxTwo{
+    padding: 120px 192px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.lorem {
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    /* or 120% */
+    margin-bottom: 45px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+    width: 150px;
+    height: 45px;
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.boxThree{
+    width: 100%;
+    background-color: #F3E9E2;
+    height: 390px;
+    padding: 60px;
+    margin-bottom: 120px;
+}
+
+.skinny{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    /* or 110% */
+    
+    
+    color: #000000;
+}
+
+.programs{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin-bottom: 35px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin-left: 60px;
+    color: #000000;
+}
+
+.cardOne{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 120px;
+}
+
+.boxFour{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 120px;
+}
+.woman{
+    width: 50%;
+    height: 570px;
+}
+
+.womanImg{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.textBox{
+    background: #F3E9E2;
+    border-radius: 20px;
+    height: 570px;
+    width: 50%;
+    padding: 153px 135px;
+}
+
+.text{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    /* or 120% */
+    width: 370px;
+    
+    color: #000000;
+}
+
+.titleTwo{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    margin-bottom: 75px;
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.boxFive{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.number{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 71px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #000000;
+}
+
+.under{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.numberOne{
+    width: 33%;
+}
+
+.numberTwo{
+    width: 33%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.numberThree{
+    width: 33%;
+}
+
+.lineBox{
+    height: 210px;
+    width: 100%;
+    background-color: #F3E9E2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 120px;
+}
+
+.line {
+    text-transform: uppercase;
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 88px;
+    
+    
+    color: #000000;
+    
+} 
+
+.CardTwo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 120px;
+}
+
+.oneCardTwo{
+    width: 360px;
+    height: 320px;
+    background-color: #AEE8FB;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.oneCardTwo:hover{
+    transition: all 0.5s linear;
+    transform: scale(1.05);
+}
+
+.oneitem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;
+}
+
+.onelorem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 130% */
+    
+    
+    color: #000000;
+}
+
+.onebtn{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.twoCardTwo{
+    width: 360px;
+    height: 320px;
+    background: #F3E9E2;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.twoCardTwo:hover{
+    transition: all 0.5s linear;
+    transform: scale(1.05);
+}
+
+.twoitem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #FF3B41;
+    
+}
+
+.twolorem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 122% */
+    
+    
+    color: #FF3B41;
+}
+
+.twobtn{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    
+    color: #FF3B41;
+}
+
+.threeCardTwo{
+    width: 360px;
+    height: 320px;
+    background: #FF3B41;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.threeCardTwo:hover{
+    transition: all 0.5s linear;
+    transform: scale(1.05);
+}
+
+.threeitem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 64px;
+    /* or 120% */
+    
+    
+    color: #F3E9E2;
+}
+
+.threelorem{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 122% */
+    
+    
+    color: #F3E9E2;
+}
+
+.threebtn{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    
+    color: #F3E9E2;
+}
+
+.boxSix{
+    width: 100%;
+    height: 525px;
+    background-color: #F3E9E2;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.meddium{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #000000;
+}
+
+.long{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    /* or 120% */
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.short{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.img{
+    width: 100%;
+    height: 720px;
+}
+
+.boxSeven{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.transformation{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    /* or 110% */
+    text-align: center;
+    width: 715px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.Conditions{
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    /* or 120% */
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+    width: 890px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.endBtn{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-family: var(--one);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    color: #000000;
+    margin: 0 auto;
+}

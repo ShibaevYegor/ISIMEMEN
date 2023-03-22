@@ -1,0 +1,93 @@
+:root {
+    --one: "Roboto";
+}
+
+marquee {
+    text-transform: uppercase;
+    font-size: large;
+    color: red;
+    margin-bottom: 60px;
+    font-family: var(--one);
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Footer{
+    width: 100%;
+    background-color: #F3E9E2;
+    height: 570px;
+    position: relative;
+}
+
+.box{
+    display: flex;
+    justify-content:space-around;
+    padding: 60px;
+    width: 100%;
+}
+
+.signingUp{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin-bottom: 55px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+    list-style-type: none;
+    
+    color: #000000;
+}
+
+.end{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    color: #000000;
+}
