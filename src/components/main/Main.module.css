@@ -277,6 +277,7 @@ html{
     background-color: #AEE8FB;
     padding: 25px;
     border-radius: 10px;
+    position: relative;
 }
 
 .oneCardTwo:hover{
@@ -317,8 +318,15 @@ html{
     text-align: center;
     letter-spacing: 1.12px;
     text-transform: uppercase;
-    
+    background-color: transparent;
     color: #000000;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 26px;
+    bottom: 26px;
 }
 
 .twoCardTwo{
@@ -327,6 +335,7 @@ html{
     background: #F3E9E2;
     border-radius: 10px;
     padding: 25px;
+    position: relative;
 }
 
 .twoCardTwo:hover{
@@ -368,8 +377,15 @@ html{
     text-align: center;
     letter-spacing: 1.12px;
     text-transform: uppercase;
-    
+    background-color: transparent;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #FF3B41;
+    border-radius: 10px;
     color: #FF3B41;
+    position: absolute;
+    right: 26px;
+    bottom: 26px;
 }
 
 .threeCardTwo{
@@ -378,6 +394,7 @@ html{
     background: #FF3B41;
     border-radius: 10px;
     padding: 25px;
+    position: relative;
 }
 
 .threeCardTwo:hover{
@@ -418,8 +435,15 @@ html{
     text-align: center;
     letter-spacing: 1.12px;
     text-transform: uppercase;
-    
+    background-color: transparent;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #F3E9E2;
+    border-radius: 10px;
     color: #F3E9E2;
+    position: absolute;
+    right: 26px;
+    bottom: 26px;
 }
 
 .boxSix{
