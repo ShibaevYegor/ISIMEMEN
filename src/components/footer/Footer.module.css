@@ -26,10 +26,11 @@ html{
 }
 
 .Footer{
-    width: 100%;
+    width: 1320px;
     background-color: #F3E9E2;
     height: 570px;
     position: relative;
+    margin:0 auto;
 }
 
 .box{
