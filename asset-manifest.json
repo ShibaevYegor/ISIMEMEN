@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/isimemen/static/css/main.7b622769.css",
+    "main.js": "/isimemen/static/js/main.eb42528d.js",
+    "static/js/787.875830ac.chunk.js": "/isimemen/static/js/787.875830ac.chunk.js",
+    "static/media/six.png": "/isimemen/static/media/six.099ee600446cf542a67a.png",
+    "static/media/one.png": "/isimemen/static/media/one.02293dffa7b5361db563.png",
+    "static/media/five.png": "/isimemen/static/media/five.188a4a34ce3724b79570.png",
+    "static/media/four.png": "/isimemen/static/media/four.f451ec287d34f9d66c3d.png",
+    "static/media/three.png": "/isimemen/static/media/three.8a277316d1263438f790.png",
+    "static/media/two.png": "/isimemen/static/media/two.d9298aaa61c93e691ca7.png",
+    "index.html": "/isimemen/index.html",
+    "main.7b622769.css.map": "/isimemen/static/css/main.7b622769.css.map",
+    "main.eb42528d.js.map": "/isimemen/static/js/main.eb42528d.js.map",
+    "787.875830ac.chunk.js.map": "/isimemen/static/js/787.875830ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b622769.css",
+    "static/js/main.eb42528d.js"
+  ]
+}
